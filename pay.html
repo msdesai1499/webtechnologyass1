@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Payment</title>
+        <link rel="stylesheet" type="text/css" href="pay.css">
+        <style>
+            #timing
+            {
+    width: 100;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;  
+    }
+    #typeofseats
+            {
+    width: 150;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;  
+    }
+        </style>        
+    </head>
+    <body>
+        <br><br>
+        <div class="register">
+            <h2>Payment</h2><br>
+            <form method="POST" id="register" action="index.html">
+                
+                
+                <label>First Name :</label><br>
+                <input type="text" name="fname" id="name" placeholder="Enter your First name"><br><br>
+                <label>Last Name :</label><br>
+                <input type="text" name="lname" id="name" placeholder="Enter your Last name"><br><br>
+                <label>Mobile Number :</label><br>
+                <select id="ph">
+                    <option>+91</option>
+                    <option>+92</option>
+                    <option>+93</option>
+                    <option>+94</option>
+                    <option>+95</option>
+                </select>
+                <input type="number name="mobnum" id="num" placeholder="Enter your Mobile Number name"><br><br>
+                <label>Email Id :</label><br>
+                <input type="email" name="email" id="name" placeholder="Enter your Email"><br><br>
+                <label>Number of Seats :</label><br>
+                <input type="number" name="noofseats" id="name" placeholder="Number of Seats"><br><br>
+                <label>Time :</label><br>
+                <select id="timing">
+                    <option>8.00-11.00</option>
+                    <option>1.00-4.00</option>
+                    <option>5.00-8.00</option>
+                    <option>9.00-12.00</option>
+                </select>
+                <br><br>
+                <label>Type of Seat :</label><br>
+                <select id="typeofseats">
+                    <option>SILVER</option>
+                    <option>GOLD</option>
+                    <option>PLATINUM</option>
+                    <option>BALCONY</option>
+                </select>
+                <br><br>
+                <label>Card Number :</label><br>
+                <input type="number" name="cardno" id="name" placeholder="Enter Card Number"><br><br>
+                <label>Expiry Date :</label><br>
+                <input type="text" name="expiry" id="name" placeholder="Enter Expiry of Card"><br><br>
+                <label>CVV :</label><br>
+                <input type="password" name="cvv" id="name" placeholder="Enter CVV"><br><br>
+                <input type="submit" value="Submit" id="sub"> 
+            </form>
+        </div>
+        
+<footer>
+	<center><h2>Its Show Time Copyright © 2020</h2></center>
+</footer>
+
+    </body>
+</html>
